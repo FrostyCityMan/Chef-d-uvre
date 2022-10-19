@@ -1,0 +1,14 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<!--배치 관리자-->
+<!--웹 어플리케이션의 환경설정, 한글필터-->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <display-name>myweb</display-name>
+
+<!--  세션 유지 시간 설정(20분)-->
+  <session-config>
+    <session-timeout>20</session-timeout>
+  </session-config>
+</web-app>
